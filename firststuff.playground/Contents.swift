@@ -15,7 +15,7 @@ struct Mens {
 }
 
 func main() {1
-    var haarKleur = UIColor(red: 1, green: 1, blue: 1, alpha: 1)
+    var haarKleur = UIColor(red: 0.5, green: 1, blue: 1, alpha: 1)
     var remi = Mens(haar: haarKleur, ledematen: 4, gewicht: 70, iq: 50, hoogte: 180)
     
     print(remi.combatPower())
